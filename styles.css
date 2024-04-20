@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #013035;
+    color: #fecfca;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#search-section {
+    margin-bottom: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    border: 1px solid #fecfca;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #013035;
+    color: #fecfca;
+}
+
+#search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fecfca;
+    color: #013035;
+    cursor: pointer;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.player-card {
+    background-color: #013035;
+    border: 1px solid #fecfca;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+}
+
+.player-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.player-info h3 {
+    margin-bottom: 10px;
+}
+
+.player-info p {
+    margin: 5px 0;
+}
+
+.purple {
+   color: #f7877b;
+}
+
+strong {
+  color: #fecfca;
+}
+
+.description {
+    display: none;
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.show-description-button {
+    padding: 5px 10px;
+    background-color: #fecfca;
+    color: #013035;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.description {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.description.visible {
+    opacity: 1;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px; /* Ajusta el tamaño de la fuente según sea necesario */
+}
+
+.social-links a i {
+    color: #fecfca; /* Cambia el color de los íconos */
+}
